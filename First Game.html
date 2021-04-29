@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jason Stackhouse - Project</title>
+<meta name="description" content="Project">
+<meta name="author" content="Jason Stackhouse">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Navigation -->
+<div id="content-desktop">
+  <div id="nav">
+    <nav class="navbar navbar-custom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+        </div>
+      
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden"> <a href="#page-top"></a> </li>
+            <li> <a class="page-scroll" href="index.html">Back to Home Page</a> </li>          
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div id="content-mobile">
+  <div id="nav">
+    <nav class="navbar navbar-custom">
+      <div class="container"> 
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden"> <a href="#page-top"></a> </li>
+            <li> <a class="page-scroll" href="index.html">Back to Home Page</a> </li>          
+          </ul>
+        
+      </div>
+    </nav>
+  </div>
+</div>
+<!-- Project Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>First Game</h2>
+      <hr>
+    </div>
+	
+    <div class="row">
+      <div class="col-xs-12 col-md-6"> <img src="img/CandC/CandC intro.jpg" class="img-responsive" alt=""> </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="about-text">
+              <p>This is the first game I ever made.  It is called CandC combined and I will explain why a little later.  
+			  I used C++ to code it and everything was done from scratch.  The UI is a simple console text interface.  
+			  Nothing of note visually, but my aim was the code!  How to make it work and function the way I wanted.  
+			  Most importantly was to handle invalid input, because my brother would most assuredly not follow directions 
+			  and try to break it, thanks for making my coding better Nick.  I no longer can find the code for the game, 
+			  but I did stash away the game exe file, so not all was lost.  Memories of the beginning of my game creation 
+			  adventure.</p> 			  
+          </div>
+        </div>
+	</div>
+	
+	<p></p> <!-- add space between pictures --> 
+	
+	<div class="row">
+      <div class="col-xs-12 col-md-6"> <img src="img/CandC/Race Selection.jpg" class="img-responsive" alt=""> </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="about-text">
+              <p>The first thing I had to do to create the game was to decide on what type of game it would be.  
+			  That was easy, fantasy combat!  I started to code was the combat system, I would worry about character 
+			  creation later, combat was the coolest!  I made the characters have three abilities and they were; 
+			  swing sword, throw fireball, or heal.  The balance on the combat system in the first iteration was 
+			  perfect, to the point of winning or losing was really a game of chance.  That was not much fun, because 
+			  combat needs to have skill involved, some way to be better than your opponent.  I decided that actions 
+			  needed to be influenced not only by random number generators but by character stats.</p>			  
+          </div>
+        </div>
+	</div>
+	
+	<p></p> <!-- add space between pictures --> 
+	
+	<div class="row">
+      <div class="col-xs-12 col-md-6"> <img src="img/CandC/Add Stats.jpg" class="img-responsive" alt=""> </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="about-text">
+              <p>The next version of the combat system needed to include character states.  I went about creating 
+			  variables to hold the character information.  Keep in mind that I had yet to learn about object-oriented 
+			  design, I had only just finished reading C++ without fear: Second edition by Brain Overland, so the whole 
+			  game was contained in one cpp file and was coded in linear style.  I had variables to keep all the 
+			  information and functions to execute all the actions.  Nice and simple, I overhauled the character abilities 
+			  by adding the character stats to abilities, health and mana pools.  The Combat system now had some life too 
+			  it.</p>			  
+          </div>
+        </div>
+	</div>
+	
+	<p></p> <!-- add space between pictures --> 
+	
+	<div class="row">
+      <div class="col-xs-12 col-md-6"> <img src="img/CandC/Combat.jpg" class="img-responsive" alt=""> </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="about-text">
+              <p>The next thing to do was to create the character creation UI.  It was a matter of giving the user 
+			  a choice of race, the basic human, elf, orc, or troll selection worked nicely.  Each race was given a 
+			  base set of attributes and then the user was given the choice to add a few points to any stats they 
+			  wanted.  The system was a bit clunky, having to spell everything out, but that is text games and 
+			  sometimes I miss it.  After that was done, I took the combat system and the character creation system 
+			  and put them together in one file, hence the C and C combined name.</p>			  
+          </div>
+        </div>
+	</div>
+	
+	<p></p> <!-- add space between pictures --> 
+	
+	<div class="row">
+      <div class="col-xs-12 col-md-6"> <img src="img/CandC/Victory.jpg" class="img-responsive" alt=""> </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="about-text">
+              <p>That was not the end of my plans for the game.  I had plans to implement a map and movement, but 
+			  then disaster struck.  Unhappy circumstances befell my PC and the code for the game was lost to me.  
+			  At least I still have the exe squirreled away for days when I am feeling nostalgic.</p>			  
+          </div>
+        </div>
+	</div>
+	
+	<p></p> <!-- add space between pictures --> 
+	
+  </div>
+</div>
+
+<!-- Footer -->
+<div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>Designed by a person with some free time, not really, it was Jason Stackhouse</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/easypiechart.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/waypoints.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
