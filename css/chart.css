@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.skillscontainer {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+	white-space: nowrap; /* to keep ability and skills on same line */
+	overflow-x: auto; /* to keep ability and skills on same line */
+}
+
+.skills {	
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: White; /* White text color */	
+}
+
+.skillsfont {
+	font-size: 150%;
+	padding-top: 10px;	
+}
+
+.skillskey1 {
+	font-size: 150%;
+	padding: 10px;
+	border: 3px solid;
+	border-color: #000000;
+	background-color: #ffffff;
+	text-align: center;
+	white-space: nowrap; /* to keep ability and skills on same line */
+	overflow-x: auto; /* to keep ability and skills on same line */	
+}
+
+.skillskey2 {
+	font-size: 150%;
+	padding: 10px;
+	border: 3px solid;
+	border-color: #000000;
+	background-color: #ffffff;
+	text-align: center;
+	/* white-space: nowrap; /* to keep ability and skills on same line */
+	/* overflow-x: auto; /* to keep ability and skills on same line */	
+}
+
+.colorkey {
+	width: auto;
+	border: 2px solid;
+	border-color: #000000;
+	background-color: #ddd; /* Grey background */
+	display: inline-block; /* to keep ability and skills on same line */
+}
+
+.keyblue {color: white; background-color: #990000;} /* light blue */
+.keygreen {color: white; background-color: #009900;} /* green */
+.keyorange {color: white; background-color: #cc6600;} /* orange */
+.cpp {width: 100%; background-color: #990000;} /* light blue */
+.csharp {width: 60%; background-color: #990000;} /* light blue */
+.unity {width: 10%; background-color: #990000;} /* light blue */
+.vs {width: 100%; background-color: #009900;} /* green */
+.visio {width: 80%; background-color: #009900;} /* green */
+.html {width: 60%; background-color: #cc6600;} /* orange */
+.css {width: 60%; background-color: #cc6600;} /* orange */
+.js {width: 40%; background-color: #cc6600;} /* orange */
+.php {width: 40%; background-color: #cc6600;} /* orange */
