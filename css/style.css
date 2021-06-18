@@ -225,7 +225,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	height: auto;
 	text-align: center;
-	color: #fff;
+	color: #000;
 	background: url(../img/JasonVR1.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
