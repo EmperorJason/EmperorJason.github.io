@@ -16,7 +16,7 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-            /*$.ajax({
+            $.ajax({
                 url: "https://formspree.io/f/xknkzkzz",
                 method: "POST",
                 data: {
@@ -48,7 +48,7 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-            }) */
+            }) 
         },
         filter: function() {
             return $(this).is(":visible");
