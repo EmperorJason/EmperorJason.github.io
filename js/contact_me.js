@@ -18,7 +18,7 @@ $(function() {
             }
             $.ajax({
                 url: "https://formspree.io/f/xknkzkzz",
-                type: "POST",
+                method: "POST",
                 data: {
                     name: name,
                     email: email,
